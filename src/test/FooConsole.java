@@ -11,7 +11,8 @@ public class FooConsole {
 		char op = sc.next().charAt(0);
 		double operand1 = 0.;
 		double operand2 = 0.;
-		
+		System.out.println("Enter second operand.");
+		operand2 = sc.nextDouble();
 		System.out.println("result is" + calculator.doOperation(op, operand1, operand2));
 	}
 }
