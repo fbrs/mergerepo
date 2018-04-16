@@ -8,6 +8,11 @@ package test;
 public class Calculator {
 
 	public double doOperation(char operator, double operand1,double operand2) {
-		throw new UnsupportedOperationException();
+		switch(operator) {
+			case '+':
+				return operand1 + operand2;
+				default:
+					throw new UnsupportedOperationException(""+operator);
+		}
 	}
 }
