@@ -13,6 +13,8 @@ public class FooConsole {
 		double operand2 = 0.;
 		System.out.println("Enter first operand");
 		operand1 = sc.nextDouble();
+		System.out.println("Enter second operand.");
+		operand2 = sc.nextDouble();
 		System.out.println("result is" + calculator.doOperation(op, operand1, operand2));
 	}
 }
