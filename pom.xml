@@ -18,6 +18,7 @@
 			</plugin>
 		</plugins>
 	</build>
+<<<<<<< HEAD
 	<dependencies>
 		<!-- https://mvnrepository.com/artifact/com.google.guava/guava -->
 		<dependency>
@@ -33,4 +34,13 @@
 			<url>https://artifactory.cs.vsb.cz/ukm/</url>
 		</repository>
 	</distributionManagement>
+=======
+	<!-- https://mvnrepository.com/artifact/com.google.guava/guava -->
+	<dependency>
+		<groupId>com.google.guava</groupId>
+		<artifactId>guava</artifactId>
+		<version>19.0</version>
+	</dependency>
+
+>>>>>>> a4d5b3c... add Guava dependency
 </project>
